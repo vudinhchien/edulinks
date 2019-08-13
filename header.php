@@ -7,8 +7,8 @@
 	<?php wp_head(); ?>   <!-- khai bao hook -->
 </head>
 <body <?php body_class(); ?> >  <!-- Ham them class cho tung trang vao the body de viet css khac nhau-->
-	<div id="container">
-	<div class="logo">
+	<div class="top-bar">
 		<?php eduglobal_header(); ?> 
 		<?php eduglobal_menu('primary-menu'); ?>
 	</div>
+	<div id="container">

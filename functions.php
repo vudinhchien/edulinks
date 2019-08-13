@@ -80,6 +80,7 @@ if( !function_exists('eduglobal_theme_setup'))  { /* Ham nay moc vao hook init c
 TEMPLATE FUNCTION */
 if( !function_exists('eduglobal_header')) {
 	function eduglobal_header() { ?>
+		<div class="logo">
 		<div class="site-name">
 			<?php 
 			if( is_home() ) {
@@ -95,7 +96,8 @@ if( !function_exists('eduglobal_header')) {
 			}
 			?>
 		</div>
-		<div class="site-description"> <?php bloginfo('description'); ?> </div> <?php
+		<div class="site-description"> <?php bloginfo('description'); ?> </div>
+		</div>	<?php
 	}
 } 
 
